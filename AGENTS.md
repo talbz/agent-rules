@@ -68,6 +68,14 @@ main → feature branch → commits → push → PR → review → merge main �
 
 ---
 
+## Feature Documentation
+
+Each repo should have a `DESIGN.md` listing its features, data model, and a regression checklist.
+
+- **Read it before starting any change** — know what already exists.
+- **Check the regression checklist before pushing** — run through it manually or note which items apply.
+- **Update `DESIGN.md`** when adding or removing a feature.
+
 ## After Finishing Changes
 
 1. **Stop.**
